@@ -1,0 +1,153 @@
+h1{
+	font-size: 60px;
+	line-height: 90px;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+h1, h2, h3, h4, .text-logo #logo {
+    font-family: "Roboto Condensed",Arial,Tahoma,sans-serif;
+}
+	
+
+h2 {
+	font-size: 46px;
+	line-height: 46px;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+.marketing-block[data-parallax="3d"] {
+    overflow: hidden;
+	position:relative;
+}
+.marketing-block{
+	padding-top:160px;
+	padding-bottom:200px;
+	background-color:#6B8E23;
+}
+
+
+
+.themecolor{
+    color: #ff0000;
+}
+h3, h3 a, h3 a:hover {
+    color: #ff0000;
+}
+h3 {
+    font-size: 22px;
+    line-height: 42px;
+	font-family: "Raleway",Arial,Tahoma,sans-serif;
+    font-weight: 300;
+	margin-bottom: 15px;
+}
+
+
+
+h2, h2 a, h2 a:hover {
+    color: #20292c;
+}
+
+h4 {
+    font-size: 21px;
+    line-height: 19px;
+}
+a.button_theme{
+background-color: #484c82
+}
+
+.list_item .list_right
+.desc {
+	color: #adaeb3
+}
+
+
+
+.section-border-top {
+	border-top: 1px solid rgba(0, 25, 70, 0.3);
+}
+
+
+
+.marketing-block .mfn-parallax {
+    left: 0;
+    max-width: none;
+    position: absolute;
+    top: 0;
+}
+
+
+.intro-marketing{
+	padding-top:0px; 
+	padding-bottom:0px;
+}
+
+.intro-image{
+	padding:0 1%; margin-top:-100px
+}
+
+.intro-desc{
+	padding:70px 5% 0;
+}
+.marketing_title {
+    font-size: 25px;
+    font-family: "Lora",Arial,Tahoma,sans-serif;
+    font-weight: 300;
+}
+.marketing-block2{
+	padding-top:0px;
+	padding-bottom:0px;
+	background-color:#fed85d;
+}
+p.market_desc{
+	font-size: 26px;
+	line-height: 46px;
+	font-family: "Lora",Arial,Tahoma,sans-serif;
+}
+p.market_small_desc{
+	font-size: 18px;
+	font-family: "Lora",Arial,Tahoma,sans-serif;	
+}
+p.market_med_desc{
+	font-size: 22px;
+	font-family: "Lora",Arial,Tahoma,sans-serif;	
+}
+@media (max-width: 767px) {
+	h1{
+		font-size: 25px;
+		line-height: 22px;
+		font-weight: 400;
+		letter-spacing: 0;
+	}
+	 h2{
+		font-size: 20px;
+		line-height: 25px;
+		font-weight: 400;
+		letter-spacing: 0;
+
+	}
+	.marketing_title {
+		font-size: 20px;
+	}
+	p.market_med_desc{
+		font-size: 17px;
+	}
+	p.market_desc{
+		font-size: 16px;
+		line-height: 22px;
+	}	
+	p.market_small_desc{
+		font-size: 15px;
+		line-height: 22px;
+	}
+	 h4, h5{
+		font-size: 18px;
+		line-height: 22px;
+		font-weight: 400;
+	}
+	
+	.product_desc {
+		font-size: 14px;
+		font-family: "Lora",Arial,Tahoma,sans-serif;
+	}
+}

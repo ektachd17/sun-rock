@@ -1,0 +1,28 @@
+
+.website-display-laptop{background-image: url("../images/mac-desktop.png");background-repeat: no-repeat;background-size: 100% auto;height: 480px;margin: 50px 0 0;padding: 17px 0;position: relative;width: 710px;z-index: 1;}
+
+.website-animation {background-image: url("../images/yokart.png");background-repeat: no-repeat;background-size: 100% auto;height: 330px;left: 75px;margin: 10px auto 0 18px;max-width: 524px;position: relative;animation:12s linear 0s infinite alternate  tb-anim;
+  -webkit-animation:12s linear 0s infinite alternate  tb-anim;}
+
+
+@keyframes tb-anim{
+    0%{background-position:0 0;}
+    10%{background-position:0 0;}
+    30%{background-position:0 33%;}
+    40%{background-position:0 33%;}
+    60%{background-position:0 66%;}
+    70%{background-position:0 66%;}
+    90%{background-position:0 100%;}
+    100%{background-position:0 100%;}
+
+}
+@-webkit-keyframes tb-anim{
+    0%{background-position:0 0;}
+    10%{background-position:0 0;}
+    30%{background-position:0 33%;}
+    40%{background-position:0 33%;}
+    60%{background-position:0 66%;}
+    70%{background-position:0 66%;}
+    90%{background-position:0 100%;}
+    100%{background-position:0 100%;}
+}
